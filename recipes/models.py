@@ -1,4 +1,3 @@
-from distutils.command.upload import upload
 from email.policy import default
 from turtle import title
 from unicodedata import category, name
