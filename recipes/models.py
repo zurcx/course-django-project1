@@ -26,7 +26,7 @@ class Recipe(models.Model):
     servings = models.IntegerField()
     servings_unit = models.CharField(max_length=65)
     preparation_steps = models.TextField()
-    prapatation_steps_is_hmtl = models.BooleanField(default=False)
+    prepatation_steps_is_hmtl = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     is_published = models.BooleanField(default=False)
